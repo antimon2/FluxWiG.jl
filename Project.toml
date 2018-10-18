@@ -1,0 +1,16 @@
+name = "FluxWiG"
+uuid = "d2862d98-d1b6-11e8-23e3-4b5151535b5c"
+authors = ["antimon2 <antimon2.me@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+BSON = "fbb218c0-5317-5bc6-957e-2ee96dd4b1f0"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+sample = ["ArgParse", "BSON", "Dates"]
+test = ["Test"]
